@@ -1,0 +1,8 @@
+function fizzArray3(start, end){
+  let result = [];
+  while (end > start){
+    result.push(start);
+    start++;
+  }
+  return result;
+}
